@@ -17,6 +17,18 @@ programCards
     displayName: 'Title',
     type: FieldType.LONG_TEXT,
     required: true,
+  })
+  .createField({
+    name: 'subtitle',
+    displayName: 'Subtitle',
+    type: FieldType.LONG_TEXT,
+    required: true,
+  })
+  .createField({
+    name: 'description',
+    displayName: 'Description',
+    type: FieldType.LONG_TEXT,
+    required: false,
   });
 
 module.exports = programCards;
