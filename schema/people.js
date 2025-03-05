@@ -26,7 +26,7 @@ programCards
   })
   .createField({
     name: 'type',
-    displayName: 'Type',
+    displayName: 'Type: Trustee or Exec',
     type: FieldType.SHORT_TEXT,
     required: true,
   });
