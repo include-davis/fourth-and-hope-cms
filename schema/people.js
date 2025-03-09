@@ -1,11 +1,11 @@
 const { ContentType, FieldType } = require('@include/hearth');
 
-const programCards = new ContentType({
+const people = new ContentType({
   name: 'people',
   pluralDisplayName: 'About: People',
 });
 
-programCards
+people
   .createField({
     name: 'main_image',
     displayName: 'Image',
