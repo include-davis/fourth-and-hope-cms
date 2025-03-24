@@ -25,6 +25,12 @@ people
     required: false,
   })
   .createField({
+    name: 'email',
+    displayName: 'Email',
+    type: FieldType.SHORT_TEXT,
+    required: false,
+  })
+  .createField({
     name: 'type',
     displayName: 'Type: Trustee or Exec',
     type: FieldType.SHORT_TEXT,
