@@ -21,19 +21,19 @@ programCards
   .createField({
     name: 'title',
     displayName: 'Title',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
     name: 'date',
     displayName: 'Date',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
     name: 'description',
     displayName: 'Description',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   });
 

@@ -8,7 +8,7 @@ const programCards = new ContentType({
 programCards.createField({
   name: 'link',
   displayName: 'Link',
-  type: FieldType.LONG_TEXT,
+  type: FieldType.SHORT_TEXT,
   required: true,
 });
 

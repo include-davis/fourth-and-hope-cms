@@ -21,7 +21,7 @@ programCards
   .createField({
     name: 'link',
     displayName: 'PDF Link',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   });
 

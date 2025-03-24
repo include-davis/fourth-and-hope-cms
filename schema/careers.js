@@ -15,13 +15,13 @@ programCards
   .createField({
     name: 'description',
     displayName: 'Description',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
     name: 'link',
     displayName: 'Link to Job',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   });
 

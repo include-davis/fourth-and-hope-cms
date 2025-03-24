@@ -21,19 +21,19 @@ programCards
   .createField({
     name: 'description',
     displayName: 'Description',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
     name: 'donation-goal',
     displayName: 'Donation Goal',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
     name: 'recommended-donation',
     displayName: 'Recommended Donation',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   });
 

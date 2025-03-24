@@ -9,13 +9,13 @@ programCards
   .createField({
     name: 'new',
     displayName: 'Brand New',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
     name: 'used',
     displayName: 'Lightly Used',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   });
 

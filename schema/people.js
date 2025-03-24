@@ -15,13 +15,13 @@ people
   .createField({
     name: 'name',
     displayName: 'Name',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
     name: 'position',
     displayName: 'Position',
-    type: FieldType.LONG_TEXT,
+    type: FieldType.SHORT_TEXT,
     required: false,
   })
   .createField({
