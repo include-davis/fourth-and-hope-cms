@@ -7,8 +7,8 @@ const programCards = new ContentType({
 
 programCards
   .createField({
-    name: 'image',
-    displayName: 'Image',
+    name: 'images',
+    displayName: 'Images',
     type: FieldType.MEDIA_LIST,
     required: true,
   })
