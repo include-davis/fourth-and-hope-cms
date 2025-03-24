@@ -25,4 +25,4 @@ programCards
     required: true,
   });
 
-module.exports = programCards;
+module.exports = careers;
