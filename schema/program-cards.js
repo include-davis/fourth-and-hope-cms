@@ -10,7 +10,7 @@ programCards
     name: 'main_image',
     displayName: 'Image',
     type: FieldType.MEDIA_LIST,
-    required: false,
+    required: true,
   })
   .createField({
     name: 'title',

@@ -16,7 +16,7 @@ stats
     name: 'number',
     displayName: 'Number',
     type: FieldType.SHORT_TEXT,
-    required: false,
+    required: true,
   })
   .createField({
     name: 'description',
