@@ -1,15 +1,15 @@
 const { ContentType, FieldType } = require('@include/hearth');
 
-const programCards = new ContentType({
+const sponsors = new ContentType({
   name: 'Sponsors',
   pluralDisplayName: 'Events: Sponsors',
 });
 
-programCards.createField({
+sponsors.createField({
   name: 'icon',
   displayName: 'Icon',
   type: FieldType.MEDIA_LIST,
   required: true,
 });
 
-module.exports = programCards;
+module.exports = sponsors;

@@ -1,11 +1,11 @@
 const { ContentType, FieldType } = require('@include/hearth');
 
-const programCards = new ContentType({
+const meetings = new ContentType({
   name: 'meetings',
   pluralDisplayName: 'About: Board Meetings Pop-up',
 });
 
-programCards
+meetings
   .createField({
     name: 'year',
     displayName: 'Year',
@@ -25,4 +25,4 @@ programCards
     required: true,
   });
 
-module.exports = programCards;
+module.exports = meetings;

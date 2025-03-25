@@ -1,11 +1,11 @@
 const { ContentType, FieldType } = require('@include/hearth');
 
-const programCards = new ContentType({
+const events = new ContentType({
   name: 'events',
   pluralDisplayName: 'Events: Events',
 });
 
-programCards
+events
   .createField({
     name: 'images',
     displayName: 'Images',
@@ -37,4 +37,4 @@ programCards
     required: true,
   });
 
-module.exports = programCards;
+module.exports = events;

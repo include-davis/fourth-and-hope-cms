@@ -1,11 +1,11 @@
 const { ContentType, FieldType } = require('@include/hearth');
 
-const programCards = new ContentType({
+const stats = new ContentType({
   name: 'stats',
   pluralDisplayName: 'Statistics',
 });
 
-programCards
+stats
   .createField({
     name: 'icon',
     displayName: 'Icon',
@@ -28,13 +28,13 @@ programCards
     name: 'donation-goal',
     displayName: 'Donation Goal',
     type: FieldType.SHORT_TEXT,
-    required: true,
+    required: false,
   })
   .createField({
     name: 'recommended-donation',
     displayName: 'Recommended Donation',
     type: FieldType.SHORT_TEXT,
-    required: true,
+    required: false,
   });
 
-module.exports = programCards;
+module.exports = stats;
