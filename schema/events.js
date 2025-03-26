@@ -14,7 +14,7 @@ events
   })
   .createField({
     name: 'type',
-    displayName: 'Type: Upcoming or Recap',
+    displayName: 'Type: upcoming or recap',
     type: FieldType.SHORT_TEXT,
     required: true,
   })

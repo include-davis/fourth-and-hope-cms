@@ -35,6 +35,12 @@ stats
     displayName: 'Recommended Donation',
     type: FieldType.SHORT_TEXT,
     required: false,
+  })
+  .createField({
+    name: 'type',
+    displayName: 'Type: impact or numbers or donation',
+    type: FieldType.SHORT_TEXT,
+    required: true,
   });
 
 module.exports = stats;

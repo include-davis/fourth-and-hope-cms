@@ -7,7 +7,7 @@ const programCards = new ContentType({
 
 programCards
   .createField({
-    name: 'main_image',
+    name: 'image',
     displayName: 'Image',
     type: FieldType.MEDIA_LIST,
     required: true,
@@ -22,13 +22,19 @@ programCards
     name: 'subtitle',
     displayName: 'Subtitle',
     type: FieldType.SHORT_TEXT,
+    required: false,
+  })
+  .createField({
+    name: 'blurb',
+    displayName: 'Blurb',
+    type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
     name: 'description',
     displayName: 'Description',
     type: FieldType.SHORT_TEXT,
-    required: false,
+    required: true,
   });
 
 module.exports = programCards;

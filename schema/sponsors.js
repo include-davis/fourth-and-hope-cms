@@ -6,8 +6,8 @@ const sponsors = new ContentType({
 });
 
 sponsors.createField({
-  name: 'icon',
-  displayName: 'Icon',
+  name: 'images',
+  displayName: 'Images',
   type: FieldType.MEDIA_LIST,
   required: true,
 });

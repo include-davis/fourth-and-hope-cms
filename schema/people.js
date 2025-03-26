@@ -7,7 +7,7 @@ const people = new ContentType({
 
 people
   .createField({
-    name: 'main_image',
+    name: 'image',
     displayName: 'Image',
     type: FieldType.MEDIA_LIST,
     required: false,
@@ -32,7 +32,7 @@ people
   })
   .createField({
     name: 'type',
-    displayName: 'Type: Trustee or Exec',
+    displayName: 'Type: trustee or exec',
     type: FieldType.SHORT_TEXT,
     required: true,
   });
