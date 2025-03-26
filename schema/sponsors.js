@@ -1,7 +1,7 @@
 const { ContentType, FieldType } = require('@include/hearth');
 
 const sponsors = new ContentType({
-  name: 'Sponsors',
+  name: 'sponsors',
   pluralDisplayName: 'Events: Sponsors',
 });
 
