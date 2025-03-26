@@ -25,13 +25,19 @@ stats
     required: true,
   })
   .createField({
-    name: 'donation-goal',
+    name: 'donation_goal',
     displayName: 'Donation Goal',
     type: FieldType.SHORT_TEXT,
     required: false,
   })
   .createField({
-    name: 'recommended-donation',
+    name: 'donation_current',
+    displayName: 'Current Donation',
+    type: FieldType.SHORT_TEXT,
+    required: false,
+  })
+  .createField({
+    name: 'recommended_donation',
     displayName: 'Recommended Donation',
     type: FieldType.SHORT_TEXT,
     required: false,

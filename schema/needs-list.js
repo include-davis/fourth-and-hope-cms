@@ -7,14 +7,14 @@ const needsList = new ContentType({
 
 needsList
   .createField({
-    name: 'new',
-    displayName: 'Brand New',
+    name: 'type',
+    displayName: 'Type: new or used',
     type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
-    name: 'used',
-    displayName: 'Lightly Used',
+    name: 'item',
+    displayName: 'Item Name',
     type: FieldType.SHORT_TEXT,
     required: true,
   });
