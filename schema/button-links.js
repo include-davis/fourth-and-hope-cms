@@ -2,7 +2,7 @@ const { ContentType, FieldType } = require('@include/hearth');
 
 const buttonLinks = new ContentType({
   name: 'buttons',
-  pluralDisplayName: 'Button Links',
+  pluralDisplayName: 'Get Involved: Button Links',
 });
 
 buttonLinks

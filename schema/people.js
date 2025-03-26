@@ -13,8 +13,20 @@ people
     required: false,
   })
   .createField({
+    name: 'image_alt',
+    displayName: 'Image Alternative Text',
+    type: FieldType.SHORT_TEXT,
+    required: false,
+  })
+  .createField({
     name: 'name',
     displayName: 'Name',
+    type: FieldType.SHORT_TEXT,
+    required: true,
+  })
+  .createField({
+    name: 'type',
+    displayName: 'Type: trustee or exec',
     type: FieldType.SHORT_TEXT,
     required: true,
   })
@@ -29,12 +41,6 @@ people
     displayName: 'Email',
     type: FieldType.SHORT_TEXT,
     required: false,
-  })
-  .createField({
-    name: 'type',
-    displayName: 'Type: trustee or exec',
-    type: FieldType.SHORT_TEXT,
-    required: true,
   });
 
 module.exports = people;

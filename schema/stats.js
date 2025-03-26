@@ -13,6 +13,18 @@ stats
     required: false,
   })
   .createField({
+    name: 'image_alt',
+    displayName: 'Icon Alternative Text',
+    type: FieldType.SHORT_TEXT,
+    required: false,
+  })
+  .createField({
+    name: 'type',
+    displayName: 'Type: impact or numbers or donation',
+    type: FieldType.SHORT_TEXT,
+    required: true,
+  })
+  .createField({
     name: 'number',
     displayName: 'Number',
     type: FieldType.SHORT_TEXT,
@@ -41,12 +53,6 @@ stats
     displayName: 'Recommended Donation',
     type: FieldType.SHORT_TEXT,
     required: false,
-  })
-  .createField({
-    name: 'type',
-    displayName: 'Type: impact or numbers or donation',
-    type: FieldType.SHORT_TEXT,
-    required: true,
   });
 
 module.exports = stats;

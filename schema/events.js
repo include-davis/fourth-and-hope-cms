@@ -13,6 +13,12 @@ events
     required: true,
   })
   .createField({
+    name: 'image_alt',
+    displayName: 'Image Alternative Text',
+    type: FieldType.SHORT_TEXT,
+    required: true,
+  })
+  .createField({
     name: 'type',
     displayName: 'Type: upcoming or recap',
     type: FieldType.SHORT_TEXT,

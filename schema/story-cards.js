@@ -13,6 +13,12 @@ storyCards
     required: true,
   })
   .createField({
+    name: 'image_alt',
+    displayName: 'Image Alternative Text',
+    type: FieldType.SHORT_TEXT,
+    required: true,
+  })
+  .createField({
     name: 'title',
     displayName: 'Title',
     type: FieldType.SHORT_TEXT,
