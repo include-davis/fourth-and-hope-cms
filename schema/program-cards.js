@@ -34,7 +34,7 @@ programCards
     name: 'blurb',
     displayName: 'Blurb',
     type: FieldType.SHORT_TEXT,
-    required: true,
+    required: false,
   })
   .createField({
     name: 'description',
